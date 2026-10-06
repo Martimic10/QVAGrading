@@ -68,7 +68,7 @@ function PricingCarousel() {
       <div
         ref={scroller}
         onScroll={syncIndex}
-        className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 [-ms-overflow-style:none] [scrollbar-width:none] sm:-mx-6 sm:px-6 [&::-webkit-scrollbar]:hidden"
+        className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-0 pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         role="region"
         aria-roledescription="carousel"
         aria-label="Pricing plans"
