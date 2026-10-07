@@ -26,8 +26,8 @@ export function Footer() {
       <Container className="py-12 sm:py-14">
         <div className="flex flex-col gap-10 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <Logo />
-            <p className="mt-3 text-sm text-muted">AI-Powered Card Intelligence</p>
+            <Logo size="lg" />
+            <p className="mt-4 text-sm text-muted">AI-Powered Card Intelligence</p>
           </div>
           <nav className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm" aria-label="Footer">
             {pageLinks.map((link) => (
